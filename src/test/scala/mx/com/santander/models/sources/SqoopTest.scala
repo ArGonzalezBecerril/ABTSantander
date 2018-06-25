@@ -13,7 +13,7 @@ class SqoopTest {
  def infoIsComplete(): Unit = {
    try{
        val prop = new Properties()
-       prop.load(new FileInputStream(path + "/src/main/resources/sources/cdd_maestra_demograficos_yyyymm.properties"))
+       prop.load(new FileInputStream(path + "/src/test/resources/sources/cdd_maestra_demograficos_yyyymm.properties"))
        val connect = prop.getProperty("CONNECT")
        println(connect)
    } catch {
