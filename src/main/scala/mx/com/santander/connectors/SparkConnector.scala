@@ -7,6 +7,6 @@ import org.apache.spark.{SparkConf, SparkContext}
 object SparkConnector {
 
   private def getConf: SparkConf = {
-    var jarPath =
+    //var jarPath =
   }
 }
